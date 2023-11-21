@@ -1,0 +1,43 @@
+{
+  "name":        "aws-cloud-meta",
+  "version":     "1.0.0",
+  "description": "This meta-package can be used to limit AWS CDK versions to a specific version of the Cloud Assembly Schema.",
+  "license":     "MIT",
+  "homepage":    "https://github.com/Yogarine/aws-cloud-meta#readme",
+
+  "scripts": {
+    "cdk": "cdk"
+  },
+
+  "devDependencies": {
+    "aws-cdk": ">=1.0 <1.33"
+  },
+
+  "peerDependencies": {
+    "@aws-cdk/core":      ">=1.0 <1.33",
+    "aws-cdk":            ">=1.0 <1.33",
+    "source-map-support": "^0.5.0",
+
+    "@aws-cdk/assert":    ">=1.0 <1.33",
+    "@types/jest":        "^24.0",
+    "@types/node":        ">=8.10",
+    "jest":               "^24.0",
+    "ts-jest":            "^24.0",
+    "ts-node":            "^8.1",
+    "typescript":         "^3.3"
+  },
+
+  "peerDependenciesMeta": {
+    "@aws-cdk/core":      { "optional": false },
+    "aws-cdk":            { "optional": false },
+    "source-map-support": { "optional": false },
+
+    "@aws-cdk/assert":    { "optional": true },
+    "@types/jest":        { "optional": true },
+    "@types/node":        { "optional": true },
+    "jest":               { "optional": true },
+    "ts-jest":            { "optional": true },
+    "ts-node":            { "optional": true },
+    "typescript":         { "optional": true }
+  }
+}

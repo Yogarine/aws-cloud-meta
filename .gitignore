@@ -1,0 +1,12 @@
+*.js
+!jest.config.js
+*.d.ts
+
+/.cache
+/.cdk.staging
+/.build
+/.idea
+/cdk.out
+/node_modules
+
+/package-lock.json
